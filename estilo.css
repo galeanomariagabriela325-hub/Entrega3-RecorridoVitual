@@ -1,0 +1,89 @@
+
+body {
+    margin: 0;
+    background-color: #f7efe6;
+    color: #49372f;
+    font-family: Georgia, serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#galeria {
+    position: relative;
+    max-width: 1000px;
+    height: 650px;
+    margin: 0 auto;
+}
+
+.foto {
+    position: absolute;
+    width: 240px;
+    top: 180px;
+    left: 380px;
+    padding: 10px;
+    background: white;
+    box-shadow: 2px 4px 12px #c9b9ab;
+    transform: rotate(-4deg);
+}
+
+.recuerdo {
+    position: absolute;
+    display: block;
+    width: 150px;
+    padding: 8px;
+    background: white;
+    color: #49372f;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 2px 4px 10px #c9b9ab;
+    transition: transform 0.3s;
+}
+
+.recuerdo img {
+    display: block;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.recuerdo p {
+    margin: 8px 0 4px;
+}
+
+.recuerdo:hover {
+    z-index: 10;
+    transform: scale(1.1) rotate(0deg);
+}
+
+.familia {
+    top: 35px;
+    left: 100px;
+    transform: rotate(-8deg);
+}
+
+.vistas {
+    top: 70px;
+    right: 100px;
+    transform: rotate(7deg);
+}
+
+.amigos {
+    top: 300px;
+    left: 40px;
+    transform: rotate(5deg);
+}
+
+.suenos {
+    top: 370px;
+    right: 70px;
+    transform: rotate(-6deg);
+}
+
+.deporte {
+    top: 470px;
+    left: 400px;
+    transform: rotate(4deg);
+}
